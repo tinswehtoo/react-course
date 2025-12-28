@@ -21,6 +21,8 @@ export function CheckoutPage({ cart }) {
       setPaymentSummary(response.data);
     };
 
+    hello;
+
     fetchCheckoutData();
   }, []);
 
