@@ -1,0 +1,15 @@
+{
+  "name": "react-course",
+  "version": "1.0.0",
+  "main": "react-basic.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "mktest": "node -e \"require('fs').mkdirSync('test', { recursive: true })\"",
+    "rmtest": "node -e \"require('fs').rmSync('test', { recursive: true, force: true })\"",
+    "lint": "echo \"Lint script is working\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
