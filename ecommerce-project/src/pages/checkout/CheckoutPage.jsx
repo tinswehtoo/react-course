@@ -9,8 +9,6 @@ export function CheckoutPage({ cart }) {
   const [deliveryOptions, setDeliveryOptions] = useState([]);
   const [paymentSummary, setPaymentSummary] = useState(null);
 
-  hello;
-
   useEffect(() => {
     const fetchCheckoutData = async () => {
       let response = await axios.get(
