@@ -35,7 +35,7 @@ export function PaymentSummary({ paymentSummary }) {
             </div>
           </div>
 
-          <div className="payment-su mmary-row total-row">
+          <div className="payment-summary-row total-row">
             <div>Order total:</div>
             <div className="payment-summary-money">
               {formatMoney(paymentSummary.totalCostCents)}
