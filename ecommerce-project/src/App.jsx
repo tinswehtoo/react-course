@@ -8,6 +8,8 @@ import axios from "axios";
 import "./App.css";
 import { useState, useEffect } from "react";
 
+window.axios = axios;
+
 function App() {
   const [cart, setCart] = useState([]);
 
@@ -27,7 +29,10 @@ function App() {
         path="checkout"
         element={<CheckoutPage cart={cart} loadCart={loadCart} />}
       />
-      <Route path="orders" element={<OrdersPage cart={cart} />} />
+      <Route
+        path="orders"
+        element={<OrdersPage cart={cart} loadCart={loadCart} />}
+      />
       <Route
         path="tracking/:orderId/:productId"
         element={<TrackingPage cart={cart} />}
