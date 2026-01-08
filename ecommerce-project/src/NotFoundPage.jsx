@@ -1,15 +1,11 @@
-import { Header } from "./components/Header";
 import "./NotFoundPage.css";
+import { Header } from "./components/Header";
 
 export function NotFoundPage({ cart }) {
   return (
-    <div>
-      <title>404 Page Not Found</title>
-      <link rel="icon" type="image/svg+xml" href="home-favicon.png" />
-
+    <div className="Error">
       <Header cart={cart} />
-
-      <div className="not-found-message">Page Not Found</div>
+      404 Not Found
     </div>
   );
 }
