@@ -1,0 +1,15 @@
+.welcome-message {
+  background-color: rgb(73, 147, 73);
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+.login-prompt {
+  background-color: rgb(123, 123, 25);
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
